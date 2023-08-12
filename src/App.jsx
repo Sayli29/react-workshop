@@ -1,5 +1,6 @@
 import React from 'react';
 import Child from './Child';
+import State from './State';
 import './style.css';
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       <h2>React Props</h2>
       <Child name={name} dataobj={obj} />
       <ChildApp dataobj2={obj2} /> 
+      <State />
     </div>
   );
 }
