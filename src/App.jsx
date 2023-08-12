@@ -1,6 +1,7 @@
 import React from 'react';
 import Child from './Child';
 import State from './State';
+import Effect from './Effect';
 import './style.css';
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <Child name={name} dataobj={obj} />
       <ChildApp dataobj2={obj2} /> 
       <State />
+      <Effect />
     </div>
   );
 }
